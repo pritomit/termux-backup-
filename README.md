@@ -215,12 +215,12 @@ Requirements
 Download/Installation
 ====
 * git clone https://github.com/maldevel/IPGeoLocation
-* pip3 install -r requirements.txt --user
+pip3 install -r requirements.txt --user
+apt-get install python3-setuptools
+easy_install3 pip
+pip3 install -r requirements.txt
 
-if pip3 is missing:
-* apt-get install python3-setuptools
-* easy_install3 pip
-* pip3 install -r requirements.txt
+if pip3 is missing
 
 
 Features
@@ -255,7 +255,14 @@ Geolocation Information
 Usage
 ====
 ```
-$ ./ip2geolocation.py
+./ip2geolocation.py
+git clone https://github.com/maldevel/IPGeoLocation
+pip3 install -r requirements.txt --user
+apt-get install python3-setuptools
+easy_install3 pip
+pip3 install -r requirements.txt
+
+
 usage: ipgeolocation.py [-h] [-m] [-t TARGET] [-T file] [-u User-Agent]
                         [-U file] [-g] [--noprint] [-v] [--nolog] [-x PROXY]
                         [-X file] [-e file] [-ec file] [-ex file]
